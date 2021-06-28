@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#screen1 .the-top-part {
+  width: 100%;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 35px;
+}
+#screen1 .the-top-part .all-contents {
+  width: 48%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#screen1 .the-top-part .all-contents .kalendar {
+  margin-right: 10px;
+}
+
+#screen1 .the-top-part .all-contents .kalendar,
+#screen1 .the-top-part .all-contents .mismuray {
+  border: 1px solid rgb(194, 221, 255);
+  border-radius: 15px;
+  display: flex;
+  width: 40%;
+}
+#screen1 .the-top-part .all-contents .mismuray {
+  width: 43%;
+}
+#screen1 .the-top-part .all-contents .icon-box {
+  background: rgb(194, 221, 255);
+  padding: 10px 8px;
+  border-radius: 15px;
+}
+#screen1 .the-top-part .all-contents .mismuray .icon-box {
+  padding: 0 8px;
+  text-align: center;
+}
+#screen1 .the-top-part .all-contents .icon-box i {
+  font-size: 50px;
+  color: #042949;
+}
+#screen1 .the-top-part .all-contents .mismuray .icon-box h3 {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  margin-top: -6px;
+}
+#screen1 .the-top-part .all-contents h2 {
+  padding: 30px 0;
+  margin: 0 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.texts-box h2 {
+  color: #246097;
+}
+
+.TheButtonsRow a {
+  text-decoration: none;
+}
+
+#icononeForkalender {
+  height: 50px;
+}
+
+/* #icononeForkalender {
+  width: 80%;
+} */
+/* css for the buttons */
+
+#screen1 .TheButtonsRow {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+@media screen and (max-width: 1024px) {
+  #screen1 .the-top-part .all-contents {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 767px) {
+  #screen1 .the-top-part .all-contents {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  #screen1 .the-top-part .all-contents .kalendar,
+  #screen1 .the-top-part .all-contents .mismuray {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+#TheButton {
+  margin: 15px;
+}
+#TheButton .theButtonInterFace {
+  width: 260px;
+  text-align: center;
+  color: #042949;
+  padding: 5px;
+  box-shadow: 3px 3px 6px rgb(194, 221, 255);
+  border-radius: 15px;
+}
+#TheButton .theButtonInterFace .theImgSection {
+  width: 100%;
+  height: 160px;
+  background: rgb(194, 221, 255);
+  border-radius: 15px;
+}
+#TheButton .theButtonInterFace .theTitleSection h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #39648d;
+  text-decoration: none;
+}
+
+#TheButton .theButtonInterFace .theTitleSection h2 a {
+  text-decoration: none;
+}
